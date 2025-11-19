@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test OTP Authentication</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 500px; margin: 50px auto; padding: 20px; }
+        .step { margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+        input { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .result { margin: 10px 0; padding: 10px; background: #f8f9fa; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>🔐 OTP Authentication Test</h1>
+    
+    <!-- Step 1: Send OTP -->
+    <div class="step">
+        <h3>Step 1: Send OTP</h3>
+        <input id="phone" placeholder="Enter phone number (e.g., +1234567890)" value="+1234567890">
+        <button onclick="sendOTP()">Send OTP</button>
+        <div id="sendResult" class="result"></div>
+    </div>
+    
+    <!-- Step 2: Verify OTP -->
+    <div class="step">
+        <h3>Step 2: Verify OTP</h3>
+        <input id="otpCode" placeholder="Enter 6-digit OTP">
+        <button onclick="verifyOTP()">Verify OTP</button>
+        <div id="verifyResult" class="result"></div>
+    </div>
+    
+    <!-- Step 3: Complete Profile -->
+    <div class="step">
+        <h3>Step 3: Complete Profile (Optional)</h3>
+        <input id="profileName" placeholder="Full Name">
+        <input id="profileEmail" placeholder="Email">
+        <input id="profilePassword" placeholder="Password" type="password">
+        <button onclick="completeProfile()">Complete Profile</button>
+        <div id="profileResult" class="result"></div>
+    </div>
+
+    <script>
+        let currentPhone = '';
+        
+        async function sendOTP() {
+            const phone = document.getElementById('phone').value;
+            currentPhone = phone;
+            
+            try {
+                const response = await fetch('http://localhost:3001/api/auth/send-otp', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ phone })
+                });
+                
+                const data = await response.json();
+                document.getElementById('sendResult').innerHTML = 
+                    `<strong>Result:</strong> ${data.message}<br>
+                     <strong>Phone:</strong> ${data.phone}<br>
+                     <strong>Expires:</strong> ${data.expiresIn}<br>
+                     <em>Check console for OTP (mock SMS)</em>`;
+            } catch (error) {
+                document.getElementById('sendResult').innerHTML = 
+                    `<strong>Error:</strong> ${error.message}`;
+            }
+        }
+        
+        async function verifyOTP() {
+            const otp = document.getElementById('otpCode').value;
+            
+            try {
+                const response = await fetch('http://localhost:3001/api/auth/verify-otp', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ phone: currentPhone, otp })
+                });
+                
+                const data = await response.json();
+                if (response.ok) {
+                    document.getElementById('verifyResult').innerHTML = 
+                        `<strong>✅ ${data.message}</strong><br>
+                         <strong>Token:</strong> ${data.token.substring(0, 20)}...<br>
+                         <strong>User:</strong> ${JSON.stringify(data.user, null, 2)}`;
+                } else {
+                    document.getElementById('verifyResult').innerHTML = 
+                        `<strong>❌ ${data.message}</strong>`;
+                }
+            } catch (error) {
+                document.getElementById('verifyResult').innerHTML = 
+                    `<strong>Error:</strong> ${error.message}`;
+            }
+        }
+        
+        async function completeProfile() {
+            const name = document.getElementById('profileName').value;
+            const email = document.getElementById('profileEmail').value;
+            const password = document.getElementById('profilePassword').value;
+            
+            try {
+                const response = await fetch('http://localhost:3001/api/auth/complete-profile', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ phone: currentPhone, name, email, password })
+                });
+                
+                const data = await response.json();
+                document.getElementById('profileResult').innerHTML = 
+                    `<strong>Result:</strong> ${data.message}<br>
+                     <strong>User:</strong> ${JSON.stringify(data.user, null, 2)}`;
+            } catch (error) {
+                document.getElementById('profileResult').innerHTML = 
+                    `<strong>Error:</strong> ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>
