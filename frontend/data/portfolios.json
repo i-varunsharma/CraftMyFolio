@@ -1,0 +1,1398 @@
+[
+  {
+    "id": 1764765886454,
+    "name": "Dikshant",
+    "template": "Minimal Professional",
+    "status": "Draft",
+    "created": "2025-12-03",
+    "views": 0,
+    "content": {
+      "name": "Dikshant",
+      "title": "Software Developer",
+      "about": "Web Developer\r\nProgrammer\r\nGitHub Contributor",
+      "skills": [
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "good-first-issue",
+        "hacktoberfest",
+        "hacktoberfest-accepted",
+        "help-wanted",
+        "task-manager",
+        "CSS"
+      ],
+      "projects": [
+        {
+          "name": "karo",
+          "description": "Karo ab",
+          "tech": "TypeScript, good-first-issue, hacktoberfest, hacktoberfest-accepted",
+          "github": "https://github.com/DikshantJangra/karo",
+          "demo": "https://karo-app.vercel.app/"
+        },
+        {
+          "name": "hoperxpharma",
+          "description": "Streamline Pharmacy Operations with Confidence.",
+          "tech": "TypeScript",
+          "github": "https://github.com/DikshantJangra/hoperxpharma",
+          "demo": "https://hoperxpharma.vercel.app/"
+        },
+        {
+          "name": "hatch",
+          "description": "M2C",
+          "tech": "TypeScript",
+          "github": "https://github.com/DikshantJangra/hatch",
+          "demo": null
+        },
+        {
+          "name": "NAMASTE-ICD",
+          "description": "No description available",
+          "tech": "TypeScript",
+          "github": "https://github.com/DikshantJangra/NAMASTE-ICD",
+          "demo": "https://namaste-icd.vercel.app"
+        },
+        {
+          "name": "DikshantJangra",
+          "description": "Personal Web",
+          "tech": "HTML",
+          "github": "https://github.com/DikshantJangra/DikshantJangra",
+          "demo": "https://dikshantjangra.github.io/DikshantJangra/frontend/index.html"
+        },
+        {
+          "name": "Daywise",
+          "description": "Structure your daily notes with clean timelines, summaries, and sections — powered by local logic or Gemini AI",
+          "tech": "TypeScript",
+          "github": "https://github.com/DikshantJangra/Daywise",
+          "demo": null
+        },
+        {
+          "name": "SwasthyaSync",
+          "description": "SwāsthyaSync",
+          "tech": "TypeScript",
+          "github": "https://github.com/DikshantJangra/SwasthyaSync",
+          "demo": "https://swasthyasync.vercel.app"
+        },
+        {
+          "name": "Borrow2Buddy",
+          "description": "NSTackathon",
+          "tech": "JavaScript",
+          "github": "https://github.com/DikshantJangra/Borrow2Buddy",
+          "demo": "https://borrow2buddy.vercel.app"
+        },
+        {
+          "name": "PlayX",
+          "description": "No description available",
+          "tech": "JavaScript",
+          "github": "https://github.com/DikshantJangra/PlayX",
+          "demo": null
+        },
+        {
+          "name": "BharatViraasat",
+          "description": "BharatViraasat, about Bharat, The Timeless Land of Ancient Wisdom.",
+          "tech": "TypeScript",
+          "github": "https://github.com/DikshantJangra/BharatViraasat",
+          "demo": null
+        },
+        {
+          "name": "AttackOnTitans",
+          "description": "Attack on Titans",
+          "tech": "JavaScript",
+          "github": "https://github.com/DikshantJangra/AttackOnTitans",
+          "demo": "https://aot-attackontitan.vercel.app/"
+        },
+        {
+          "name": "tictactoe",
+          "description": "Tic Tac Toe with React.js",
+          "tech": "JavaScript",
+          "github": "https://github.com/DikshantJangra/tictactoe",
+          "demo": "https://dikshantjangra.github.io/tictactoe/"
+        }
+      ],
+      "contact": {
+        "email": "",
+        "github": "https://github.com/DikshantJangra",
+        "linkedin": "",
+        "website": "https://github.com/DikshantJangra"
+      }
+    }
+  },
+  {
+    "id": 1764765300448,
+    "name": "Varun Sharma",
+    "template": "Modern Developer",
+    "status": "Draft",
+    "created": "2025-12-03",
+    "views": 0,
+    "content": {
+      "name": "Varun Sharma",
+      "title": "Software Developer",
+      "about": "Passionate developer building amazing projects",
+      "skills": [
+        "JavaScript",
+        "HTML"
+      ],
+      "projects": [
+        {
+          "name": "CraftMyFolio",
+          "description": "No description available",
+          "tech": "JavaScript",
+          "github": "https://github.com/i-varunsharma/CraftMyFolio",
+          "demo": null
+        },
+        {
+          "name": "TRAVELTRAILS",
+          "description": "No description available",
+          "tech": "JavaScript",
+          "github": "https://github.com/i-varunsharma/TRAVELTRAILS",
+          "demo": "https://traveltrails.vercel.app/"
+        },
+        {
+          "name": "NytOwls",
+          "description": "No description available",
+          "tech": "JavaScript",
+          "github": "https://github.com/i-varunsharma/NytOwls",
+          "demo": null
+        },
+        {
+          "name": "passwordGenerator",
+          "description": "No description available",
+          "tech": "JavaScript",
+          "github": "https://github.com/i-varunsharma/passwordGenerator",
+          "demo": "https://password-generator-livid-seven.vercel.app"
+        },
+        {
+          "name": "Capstone-Project",
+          "description": "No description available",
+          "tech": "HTML",
+          "github": "https://github.com/i-varunsharma/Capstone-Project",
+          "demo": "https://i-varunsharma.github.io/Capstone-Project/"
+        }
+      ],
+      "contact": {
+        "email": "",
+        "github": "https://github.com/i-varunsharma",
+        "linkedin": "",
+        "website": ""
+      }
+    }
+  },
+  {
+    "id": 1764704601708,
+    "name": "Varun Sharma",
+    "template": "Minimal Professional",
+    "status": "Draft",
+    "created": "2025-12-02",
+    "views": 0,
+    "content": {
+      "name": "Varun Sharma",
+      "title": "Software Developer",
+      "about": "Passionate developer building amazing projects",
+      "skills": [
+        "JavaScript",
+        "HTML"
+      ],
+      "projects": [],
+      "contact": {
+        "email": "",
+        "github": "https://github.com/i-varunsharma",
+        "linkedin": "",
+        "website": ""
+      }
+    }
+  },
+  {
+    "id": "portfolio_1764690097740",
+    "originalRepo": "https://github.com/ashutosh1919/masterPortfolio",
+    "framework": "react",
+    "modifications": [
+      {
+        "file": "package.json",
+        "type": "update",
+        "changes": {
+          "name": "varun-portfolio",
+          "description": "Varun's Portfolio - Student",
+          "author": "Varun",
+          "homepage": "https://i-varunsharma.github.io"
+        }
+      },
+      {
+        "file": "CODE_OF_CONDUCT.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": ""
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Welcome! I'm Varun, a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": ""
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Welcome! I'm Varun, a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      },
+      {
+        "file": "README.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": ""
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Welcome! I'm Varun, a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      }
+    ],
+    "deploymentConfig": {
+      "platform": "vercel",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build",
+      "envVars": {
+        "REACT_APP_GITHUB_USERNAME": "i-varunsharma",
+        "REACT_APP_EMAIL": ""
+      }
+    },
+    "personalizedContent": {
+      "bio": "Welcome! I'm Varun, a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference.",
+      "projects": [
+        {
+          "name": "Personal Portfolio",
+          "description": "A responsive portfolio website built with modern web technologies",
+          "tech": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ],
+          "github": "https://github.com/i-varunsharma/portfolio",
+          "featured": true
+        },
+        {
+          "name": "Task Manager App",
+          "description": "A full-stack task management application with real-time updates",
+          "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ],
+          "github": "https://github.com/i-varunsharma/task-manager",
+          "featured": false
+        }
+      ],
+      "skills": {
+        "frontend": [],
+        "backend": [],
+        "database": [],
+        "tools": []
+      },
+      "experience": [],
+      "achievements": [
+        "Active open source contributor on GitHub (@i-varunsharma)"
+      ]
+    },
+    "previewUrl": null,
+    "status": "ready"
+  },
+  {
+    "id": "portfolio_1764689809723",
+    "originalRepo": "https://github.com/soumyajit4419/Portfolio",
+    "framework": "react",
+    "modifications": [
+      {
+        "file": "package.json",
+        "type": "update",
+        "changes": {
+          "name": "varun-sharma-portfolio",
+          "description": "Varun Sharma's Portfolio - Student",
+          "author": "Varun Sharma",
+          "homepage": "https://i-varunsharma.github.io"
+        }
+      },
+      {
+        "file": "README.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Hi, I'm Varun Sharma, a passionate Student with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[\"python\"]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      }
+    ],
+    "deploymentConfig": {
+      "platform": "vercel",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build",
+      "envVars": {
+        "REACT_APP_GITHUB_USERNAME": "i-varunsharma",
+        "REACT_APP_EMAIL": "galvevarun@gmail.com"
+      }
+    },
+    "personalizedContent": {
+      "bio": "Hi, I'm Varun Sharma, a passionate Student with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code. Based in Karnal.",
+      "projects": [
+        {
+          "name": "Personal Portfolio",
+          "description": "A responsive portfolio website built with modern web technologies",
+          "tech": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ],
+          "github": "https://github.com/i-varunsharma/portfolio",
+          "featured": true
+        },
+        {
+          "name": "Task Manager App",
+          "description": "A full-stack task management application with real-time updates",
+          "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ],
+          "github": "https://github.com/i-varunsharma/task-manager",
+          "featured": false
+        }
+      ],
+      "skills": {
+        "frontend": [],
+        "backend": [
+          "python"
+        ],
+        "database": [],
+        "tools": []
+      },
+      "experience": [],
+      "achievements": [
+        "Active open source contributor on GitHub (@i-varunsharma)"
+      ]
+    },
+    "previewUrl": null,
+    "status": "ready"
+  },
+  {
+    "id": "portfolio_1764689527411",
+    "originalRepo": "https://github.com/soumyajit4419/Portfolio",
+    "framework": "react",
+    "modifications": [
+      {
+        "file": "package.json",
+        "type": "update",
+        "changes": {
+          "name": "varun-sharma-portfolio",
+          "description": "Varun Sharma's Portfolio - Student",
+          "author": "Varun Sharma",
+          "homepage": "https://i-varunsharma.github.io"
+        }
+      },
+      {
+        "file": "README.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma here! As a Student, I specialize in building scalable applications using cutting-edge technologies. I'm driven by the challenge of solving complex problems with elegant code. Based in Karnal ."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      }
+    ],
+    "deploymentConfig": {
+      "platform": "vercel",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build",
+      "envVars": {
+        "REACT_APP_GITHUB_USERNAME": "i-varunsharma",
+        "REACT_APP_EMAIL": "galvevarun@gmail.com"
+      }
+    },
+    "personalizedContent": {
+      "bio": "Varun Sharma here! As a Student, I specialize in building scalable applications using cutting-edge technologies. I'm driven by the challenge of solving complex problems with elegant code. Based in Karnal .",
+      "projects": [
+        {
+          "name": "Personal Portfolio",
+          "description": "A responsive portfolio website built with modern web technologies",
+          "tech": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ],
+          "github": "https://github.com/i-varunsharma/portfolio",
+          "featured": true
+        },
+        {
+          "name": "Task Manager App",
+          "description": "A full-stack task management application with real-time updates",
+          "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ],
+          "github": "https://github.com/i-varunsharma/task-manager",
+          "featured": false
+        }
+      ],
+      "skills": {
+        "frontend": [],
+        "backend": [],
+        "database": [],
+        "tools": []
+      },
+      "experience": [],
+      "achievements": [
+        "Active open source contributor on GitHub (@i-varunsharma)"
+      ]
+    },
+    "previewUrl": null,
+    "status": "ready"
+  },
+  {
+    "id": "portfolio_1764681402676",
+    "originalRepo": "https://github.com/ashutosh1919/masterPortfolio",
+    "framework": "react",
+    "modifications": [
+      {
+        "file": "package.json",
+        "type": "update",
+        "changes": {
+          "name": "varun-sharma-portfolio",
+          "description": "Varun Sharma's Portfolio - Student",
+          "author": "Varun Sharma",
+          "homepage": "https://i-varunsharma.github.io"
+        }
+      },
+      {
+        "file": "CODE_OF_CONDUCT.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Welcome! I'm Varun Sharma, a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Welcome! I'm Varun Sharma, a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      },
+      {
+        "file": "README.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Welcome! I'm Varun Sharma, a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      }
+    ],
+    "deploymentConfig": {
+      "platform": "vercel",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build",
+      "envVars": {
+        "REACT_APP_GITHUB_USERNAME": "i-varunsharma",
+        "REACT_APP_EMAIL": "galvevarun@gmail.com"
+      }
+    },
+    "personalizedContent": {
+      "bio": "Welcome! I'm Varun Sharma, a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference. Based in Karnal.",
+      "projects": [
+        {
+          "name": "Personal Portfolio",
+          "description": "A responsive portfolio website built with modern web technologies",
+          "tech": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ],
+          "github": "https://github.com/i-varunsharma/portfolio",
+          "featured": true
+        },
+        {
+          "name": "Task Manager App",
+          "description": "A full-stack task management application with real-time updates",
+          "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ],
+          "github": "https://github.com/i-varunsharma/task-manager",
+          "featured": false
+        }
+      ],
+      "skills": {
+        "frontend": [],
+        "backend": [],
+        "database": [],
+        "tools": []
+      },
+      "experience": [],
+      "achievements": [
+        "Active open source contributor on GitHub (@i-varunsharma)"
+      ]
+    },
+    "previewUrl": null,
+    "status": "ready"
+  },
+  {
+    "id": "portfolio_1764681283065",
+    "originalRepo": "https://github.com/soumyajit4419/Portfolio",
+    "framework": "react",
+    "modifications": [
+      {
+        "file": "package.json",
+        "type": "update",
+        "changes": {
+          "name": "varun-sharma-portfolio",
+          "description": "Varun Sharma's Portfolio - Student",
+          "author": "Varun Sharma",
+          "homepage": "https://i-varunsharma.github.io"
+        }
+      },
+      {
+        "file": "README.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma here! As a Student, I specialize in building scalable applications using cutting-edge technologies. I'm driven by the challenge of solving complex problems with elegant code. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      }
+    ],
+    "deploymentConfig": {
+      "platform": "vercel",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build",
+      "envVars": {
+        "REACT_APP_GITHUB_USERNAME": "i-varunsharma",
+        "REACT_APP_EMAIL": "galvevarun@gmail.com"
+      }
+    },
+    "personalizedContent": {
+      "bio": "Varun Sharma here! As a Student, I specialize in building scalable applications using cutting-edge technologies. I'm driven by the challenge of solving complex problems with elegant code. Based in Karnal.",
+      "projects": [
+        {
+          "name": "Personal Portfolio",
+          "description": "A responsive portfolio website built with modern web technologies",
+          "tech": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ],
+          "github": "https://github.com/i-varunsharma/portfolio",
+          "featured": true
+        },
+        {
+          "name": "Task Manager App",
+          "description": "A full-stack task management application with real-time updates",
+          "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ],
+          "github": "https://github.com/i-varunsharma/task-manager",
+          "featured": false
+        }
+      ],
+      "skills": {
+        "frontend": [],
+        "backend": [],
+        "database": [],
+        "tools": []
+      },
+      "experience": [],
+      "achievements": [
+        "Active open source contributor on GitHub (@i-varunsharma)"
+      ]
+    },
+    "previewUrl": null,
+    "status": "ready"
+  },
+  {
+    "id": "portfolio_1764680957163",
+    "originalRepo": "https://github.com/ashutosh1919/masterPortfolio",
+    "framework": "react",
+    "modifications": [
+      {
+        "file": "package.json",
+        "type": "update",
+        "changes": {
+          "name": "varun-sharma-portfolio",
+          "description": "Varun Sharma's Portfolio - Student",
+          "author": "Varun Sharma",
+          "homepage": "https://i-varunsharma.github.io"
+        }
+      },
+      {
+        "file": "CODE_OF_CONDUCT.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Hi, I'm Varun Sharma, a passionate Student with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code. Based in Karnal ."
+          },
+          {
+            "pattern": {},
+            "replacement": "[\"python\"]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Hi, I'm Varun Sharma, a passionate Student with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code. Based in Karnal ."
+          },
+          {
+            "pattern": {},
+            "replacement": "[\"python\"]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      },
+      {
+        "file": "README.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun Sharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Hi, I'm Varun Sharma, a passionate Student with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code. Based in Karnal ."
+          },
+          {
+            "pattern": {},
+            "replacement": "[\"python\"]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      }
+    ],
+    "deploymentConfig": {
+      "platform": "vercel",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build",
+      "envVars": {
+        "REACT_APP_GITHUB_USERNAME": "i-varunsharma",
+        "REACT_APP_EMAIL": "galvevarun@gmail.com"
+      }
+    },
+    "personalizedContent": {
+      "bio": "Hi, I'm Varun Sharma, a passionate Student with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code. Based in Karnal .",
+      "projects": [
+        {
+          "name": "Personal Portfolio",
+          "description": "A responsive portfolio website built with modern web technologies",
+          "tech": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ],
+          "github": "https://github.com/i-varunsharma/portfolio",
+          "featured": true
+        },
+        {
+          "name": "Task Manager App",
+          "description": "A full-stack task management application with real-time updates",
+          "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ],
+          "github": "https://github.com/i-varunsharma/task-manager",
+          "featured": false
+        }
+      ],
+      "skills": {
+        "frontend": [],
+        "backend": [
+          "python"
+        ],
+        "database": [],
+        "tools": []
+      },
+      "experience": [],
+      "achievements": [
+        "Active open source contributor on GitHub (@i-varunsharma)"
+      ]
+    },
+    "previewUrl": null,
+    "status": "ready"
+  },
+  {
+    "id": "portfolio_1764680784810",
+    "originalRepo": "https://github.com/ashutosh1919/masterPortfolio",
+    "framework": "react",
+    "modifications": [
+      {
+        "file": "package.json",
+        "type": "update",
+        "changes": {
+          "name": "varun--portfolio",
+          "description": "Varun 's Portfolio - Student",
+          "author": "Varun ",
+          "homepage": "https://i-varunsharma.github.io"
+        }
+      },
+      {
+        "file": "CODE_OF_CONDUCT.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun "
+          },
+          {
+            "pattern": {},
+            "replacement": "varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Varun  here! As a Student, I specialize in building scalable applications using cutting-edge technologies. I'm driven by the challenge of solving complex problems with elegant code. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun "
+          },
+          {
+            "pattern": {},
+            "replacement": "varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Varun  here! As a Student, I specialize in building scalable applications using cutting-edge technologies. I'm driven by the challenge of solving complex problems with elegant code. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      },
+      {
+        "file": "README.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun "
+          },
+          {
+            "pattern": {},
+            "replacement": "varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Varun  here! As a Student, I specialize in building scalable applications using cutting-edge technologies. I'm driven by the challenge of solving complex problems with elegant code. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      }
+    ],
+    "deploymentConfig": {
+      "platform": "vercel",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build",
+      "envVars": {
+        "REACT_APP_GITHUB_USERNAME": "i-varunsharma",
+        "REACT_APP_EMAIL": "galvevarun@gmail.com"
+      }
+    },
+    "personalizedContent": {
+      "bio": "Varun  here! As a Student, I specialize in building scalable applications using cutting-edge technologies. I'm driven by the challenge of solving complex problems with elegant code. Based in Karnal.",
+      "projects": [
+        {
+          "name": "Personal Portfolio",
+          "description": "A responsive portfolio website built with modern web technologies",
+          "tech": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ],
+          "github": "https://github.com/i-varunsharma/portfolio",
+          "featured": true
+        },
+        {
+          "name": "Task Manager App",
+          "description": "A full-stack task management application with real-time updates",
+          "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ],
+          "github": "https://github.com/i-varunsharma/task-manager",
+          "featured": false
+        }
+      ],
+      "skills": {
+        "frontend": [],
+        "backend": [],
+        "database": [],
+        "tools": []
+      },
+      "experience": [],
+      "achievements": [
+        "Active open source contributor on GitHub (@i-varunsharma)"
+      ]
+    },
+    "previewUrl": null,
+    "status": "ready"
+  },
+  {
+    "id": "portfolio_1764680688669",
+    "originalRepo": "https://github.com/soumyajit4419/Portfolio",
+    "framework": "react",
+    "modifications": [
+      {
+        "file": "package.json",
+        "type": "update",
+        "changes": {
+          "name": "varun--portfolio",
+          "description": "Varun 's Portfolio - Student",
+          "author": "Varun ",
+          "homepage": "https://i-varunsharma.github.io"
+        }
+      },
+      {
+        "file": "README.md",
+        "type": "replace",
+        "patterns": [
+          {
+            "pattern": {},
+            "replacement": "Varun "
+          },
+          {
+            "pattern": {},
+            "replacement": "varun"
+          },
+          {
+            "pattern": {},
+            "replacement": "Student"
+          },
+          {
+            "pattern": {},
+            "replacement": "galvevarun@gmail.com"
+          },
+          {
+            "pattern": {},
+            "replacement": "github.com/i-varunsharma"
+          },
+          {
+            "pattern": {},
+            "replacement": "linkedin.com/in/"
+          },
+          {
+            "pattern": {},
+            "replacement": "Welcome! I'm Varun , a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference. Based in Karnal."
+          },
+          {
+            "pattern": {},
+            "replacement": "[]"
+          },
+          {
+            "pattern": {},
+            "replacement": "projects: [{\"name\":\"Personal Portfolio\",\"description\":\"A responsive portfolio website built with modern web technologies\",\"tech\":[\"React\",\"CSS\",\"JavaScript\"],\"github\":\"https://github.com/i-varunsharma/portfolio\",\"featured\":true},{\"name\":\"Task Manager App\",\"description\":\"A full-stack task management application with real-time updates\",\"tech\":[\"React\",\"Node.js\",\"MongoDB\"],\"github\":\"https://github.com/i-varunsharma/task-manager\",\"featured\":false}]"
+          }
+        ]
+      }
+    ],
+    "deploymentConfig": {
+      "platform": "vercel",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build",
+      "envVars": {
+        "REACT_APP_GITHUB_USERNAME": "i-varunsharma",
+        "REACT_APP_EMAIL": "galvevarun@gmail.com"
+      }
+    },
+    "personalizedContent": {
+      "bio": "Welcome! I'm Varun , a Student who transforms ideas into digital experiences. With a focus on full-stack development, I create applications that make a difference. Based in Karnal.",
+      "projects": [
+        {
+          "name": "Personal Portfolio",
+          "description": "A responsive portfolio website built with modern web technologies",
+          "tech": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ],
+          "github": "https://github.com/i-varunsharma/portfolio",
+          "featured": true
+        },
+        {
+          "name": "Task Manager App",
+          "description": "A full-stack task management application with real-time updates",
+          "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ],
+          "github": "https://github.com/i-varunsharma/task-manager",
+          "featured": false
+        }
+      ],
+      "skills": {
+        "frontend": [],
+        "backend": [],
+        "database": [],
+        "tools": []
+      },
+      "experience": [],
+      "achievements": [
+        "Active open source contributor on GitHub (@i-varunsharma)"
+      ]
+    },
+    "previewUrl": null,
+    "status": "ready"
+  }
+]
