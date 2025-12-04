@@ -4,7 +4,7 @@
 require('dotenv').config(); // MUST be the first line
 const express = require('express');
 const mongoose = require('mongoose');
-const mongoURI = process.env.mongo_URI; // Reads your MongoDB URI
+const mongoURI = process.env.MONGODB_URI; // Reads your MongoDB URI
 
 
 

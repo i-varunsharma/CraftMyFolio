@@ -93,12 +93,14 @@ export default function VerifyOTPPage() {
       const data = await response.json();
 
       if (response.ok) {
+        const data = await response.json();
         localStorage.setItem('token', data.token);
         localStorage.setItem('user', JSON.stringify(data.user));
         localStorage.removeItem('pendingEmail');
         showToast('Email verified successfully! 🎉', 'success');
-        setTimeout(() => router.push('/'), 1500);
+        setTimeout(() => router.push('/dashboard'), 1500);
       } else {
+        const data = await response.json();
         setError(data.message || 'Invalid OTP');
         showToast(data.message || 'Invalid OTP', 'error');
         setOtp(['', '', '', '', '', '']);

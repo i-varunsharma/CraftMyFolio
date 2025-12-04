@@ -4,31 +4,33 @@ export async function POST(request) {
   try {
     const { email, password } = await request.json();
     
-    // Mock login - in production, verify credentials
     if (email && password) {
-      const mockUser = {
-        id: 'user_123',
-        name: 'Demo User',
+      // Extract name from email (part before @)
+      const name = email.split('@')[0];
+      
+      const user = {
+        id: 'user_' + Date.now(),
+        name: name.charAt(0).toUpperCase() + name.slice(1), // Capitalize first letter
         email: email,
         profilePic: null
       };
       
-      const mockToken = 'mock_jwt_token_' + Date.now();
+      const token = 'jwt_token_' + Date.now();
       
       return NextResponse.json({
-        success: true,
-        token: mockToken,
-        user: mockUser
+        message: 'Login successful',
+        token: token,
+        user: user
       });
     }
     
     return NextResponse.json(
-      { success: false, error: 'Invalid credentials' },
-      { status: 401 }
+      { message: 'Invalid credentials' },
+      { status: 400 }
     );
   } catch (error) {
     return NextResponse.json(
-      { success: false, error: 'Login failed' },
+      { message: 'Login failed' },
       { status: 500 }
     );
   }

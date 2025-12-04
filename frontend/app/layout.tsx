@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import PopupBlocker from "../components/PopupBlocker";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -24,9 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script src="/popup-blocker.js" defer></script>
+      </head>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}
       >
+        <PopupBlocker />
         {children}
       </body>
     </html>

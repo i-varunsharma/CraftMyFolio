@@ -56,10 +56,11 @@ export default function SignupPage() {
       const data = await response.json();
       
       if (response.ok) {
-        // Store email for OTP verification
-        localStorage.setItem('pendingEmail', data.email);
-        showToast('Account created! Check your email for OTP verification.', 'success');
-        setTimeout(() => router.push('/verify-otp'), 1500);
+        // Store user data and login directly
+        localStorage.setItem('token', data.token);
+        localStorage.setItem('user', JSON.stringify(data.user));
+        showToast('Account created successfully! 🎉', 'success');
+        setTimeout(() => router.push('/dashboard'), 1500);
       } else {
         showToast(data.message || 'Signup failed', 'error');
       }
@@ -282,7 +283,7 @@ export default function SignupPage() {
         {/* Social Login */}
         <div className="space-y-3">
           <button 
-            onClick={() => window.location.href = 'http://localhost:3001/api/auth/google'}
+            onClick={() => window.location.href = '/api/auth/google'}
             className="w-full flex items-center justify-center gap-3 px-4 py-3.5 bg-gray-700/50 backdrop-blur-sm border-2 border-gray-600 rounded-xl font-semibold text-gray-200 hover:bg-gray-700 hover:border-gray-500 hover:shadow-lg transition-all duration-300"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24">
@@ -295,7 +296,7 @@ export default function SignupPage() {
           </button>
 
           <button 
-            onClick={() => window.location.href = 'http://localhost:3001/api/auth/github'}
+            onClick={() => window.location.href = '/api/auth/github'}
             className="w-full flex items-center justify-center gap-3 px-4 py-3.5 bg-gray-700/50 backdrop-blur-sm border-2 border-gray-600 rounded-xl font-semibold text-gray-200 hover:bg-gray-700 hover:border-gray-500 hover:shadow-lg transition-all duration-300"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
