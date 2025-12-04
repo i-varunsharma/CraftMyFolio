@@ -1,12 +1,12 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import React, { useState, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Editor from '@monaco-editor/react';
 
 export default function EditPortfolio() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const repoUrl = searchParams.get('repo');
+  const [repoUrl, setRepoUrl] = useState(null);
   
   const [files, setFiles] = useState({});
   const [selectedFile, setSelectedFile] = useState('index.html');
@@ -15,12 +15,22 @@ export default function EditPortfolio() {
   const [repository, setRepository] = useState(null);
 
   useEffect(() => {
-    if (repoUrl) {
-      fetchRepo();
+    // Read repo param from window location (avoid useSearchParams during prerender)
+    if (typeof window !== 'undefined') {
+      const sp = new URLSearchParams(window.location.search || '');
+      const repoParam = sp.get('repo');
+      setRepoUrl(repoParam);
+
+      if (repoParam) {
+        fetchRepo();
+      } else {
+        loadDemo();
+      }
     } else {
+      // On server, fall back to demo until client hydration
       loadDemo();
     }
-  }, [repoUrl]);
+  }, []);
 
   const fetchRepo = async () => {
     try {

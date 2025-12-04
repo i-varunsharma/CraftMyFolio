@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { aiAssistant } from '../../../utils/advancedAI.js';
+import { aiAssistant } from '../../../../utils/advancedAI.js';
 
 export async function POST(request) {
   try {

@@ -31,7 +31,9 @@ export default function SignupPage() {
     setIsLoading(true);
     
     try {
-      const response = await fetch('http://localhost:3001/api/auth/signup', {
+      const BASE = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://craftmyfolio-fofa.onrender.com';
+
+      const response = await fetch(`${BASE}/api/auth/signup`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

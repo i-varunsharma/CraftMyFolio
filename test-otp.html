@@ -41,6 +41,7 @@
     </div>
 
     <script>
+        const BASE = window.BACKEND_URL || 'https://craftmyfolio-fofa.onrender.com';
         let currentPhone = '';
         
         async function sendOTP() {
@@ -48,7 +49,7 @@
             currentPhone = phone;
             
             try {
-                const response = await fetch('http://localhost:3001/api/auth/send-otp', {
+                const response = await fetch(`${BASE}/api/auth/send-otp`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ phone })
@@ -70,7 +71,7 @@
             const otp = document.getElementById('otpCode').value;
             
             try {
-                const response = await fetch('http://localhost:3001/api/auth/verify-otp', {
+                const response = await fetch(`${BASE}/api/auth/verify-otp`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ phone: currentPhone, otp })
@@ -98,7 +99,7 @@
             const password = document.getElementById('profilePassword').value;
             
             try {
-                const response = await fetch('http://localhost:3001/api/auth/complete-profile', {
+                const response = await fetch(`${BASE}/api/auth/complete-profile`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ phone: currentPhone, name, email, password })

@@ -5,7 +5,7 @@ export async function GET(request, { params }) {
     const { packageId } = params;
     
     // Get portfolio from storage
-    const { getPortfolios } = await import('../../../../lib/portfolioStore.js');
+    const { getPortfolios } = await import('../../../../../lib/portfolioStore.js');
     const portfolios = getPortfolios();
     const portfolio = portfolios.find(p => p.downloadUrl?.includes(packageId));
     

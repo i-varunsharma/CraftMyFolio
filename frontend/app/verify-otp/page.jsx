@@ -79,7 +79,9 @@ export default function VerifyOTPPage() {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:3001/api/auth/verify-email', {
+      const BASE = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://craftmyfolio-fofa.onrender.com';
+
+      const response = await fetch(`${BASE}/api/auth/verify-email`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -118,7 +120,9 @@ export default function VerifyOTPPage() {
     if (!canResend) return;
 
     try {
-      const response = await fetch('http://localhost:3001/api/auth/resend-verification-otp', {
+      const BASE = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://craftmyfolio-fofa.onrender.com';
+
+      const response = await fetch(`${BASE}/api/auth/resend-verification-otp`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

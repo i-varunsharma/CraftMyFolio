@@ -22,11 +22,12 @@ export default function LoginPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    
+    const BASE = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://craftmyfolio-fofa.onrender.com';
+
     try {
       console.log('Attempting login with:', { email });
-      
-      const response = await fetch('http://localhost:3001/api/auth/login', {
+
+      const response = await fetch(`${BASE}/api/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

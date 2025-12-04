@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { githubIntegration } from '../../../utils/github/integration.js';
+import { githubIntegration } from '../../../../utils/github/integration.js';
 
 export async function GET(request) {
   try {
